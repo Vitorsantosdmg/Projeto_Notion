@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Container } from './styles';
 import { motion } from 'framer-motion';
 
+
 export const SideBar = () => {
 
     const [ sidebarState, setSidebarState ] = useState(true)
@@ -10,7 +11,7 @@ export const SideBar = () => {
         <Container
             position={sidebarState}
         >
-            <h1>Flamengo</h1>
+            <h1>Flamengoooooooooo</h1>
         </Container>
     )
 };
